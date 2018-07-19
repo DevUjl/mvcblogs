@@ -1,0 +1,182 @@
+.main_header{
+	width: 100%;
+	background-color: #0F0F0F;
+}
+.main_header nav ul{
+	list-style: none;
+	display: inline-block;
+}
+.main_header nav ul li{
+	display: inline;
+	margin: 10px;
+}
+.main_header nav ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #fcfcfc;
+}
+
+/*style of footer section*/
+
+.main_footer{
+	width: 100%;
+	background-color: #0F0F0F;
+	margin-top: 80px;
+
+}
+.main_footer div p{
+	color: #fcfcfc;
+	margin-left: 20px;
+}
+
+/* style of new blogs form submisson*/
+#msgs{
+	margin-left: 30%;
+}
+#msgs p{
+	padding-bottom: 0px auto;
+	font-size: x-large;
+	color: green;
+}
+#err-msg{
+	margin-left: 18%;
+	padding-bottom: 0px auto;
+	font-size: x-large;
+	color: green;
+}
+#add-form-div{
+	margin-left: 20%;
+	margin-top: 3%;
+	width: 50%;
+	height: 500px;
+	border-radius: 10px;
+	background-color: #FBFBEF;
+}
+#add-form-div label{
+	/*display: block;*/
+	text-align: left;
+	font-size: larger;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#add-form-div input{
+	height:30px;
+	width: 93%;
+	padding: 5px 10px;
+	margin-left:10px;
+	margin-top: 15px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+#add-form-div button{
+	padding: 10px;
+	margin: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5f9ea0;
+	border: none;
+	border-radius: 5px;
+}
+/*stylling of all display view of blog lists*/
+/*.list-all-blogs{
+	width: 70%;
+	height: 200px;
+	margin-left: 2%;
+	border-radius: 5px;
+	background-color: #ECEBEB
+}
+.list-all-blogs p{
+	margin-left: 2%;
+	margin-top: 10px;
+	padding-top: 3px;
+}*/
+.table-style{
+	width: 55%;
+	/*border: 1px solid black;*/
+	
+	margin: 35px 300px 0px 300px;
+	text-align:center;
+	border-collapse: collapse;	
+	border:1px solid black;
+}
+.table-style th{
+	font-size: x-large;
+}
+.table-style thead tr{
+      border:1px solid black;
+      border-radius: 5px;
+}
+.table-style td{
+	font-size: large;
+	border:1px solid black;
+	height: 30px;
+	padding: 2px;
+}
+/*-----style of disply-blogs div-----*/
+.detail_view{
+	background-color: grey;
+	width: 50%;
+	height:auto;
+	border-radius: 5px;
+	margin: 10px 0px 0px 80px;
+	padding: 10px 10px;
+}
+
+/*styles of  message box*/
+.msg-box{
+	width: 50%;
+	height: auto;
+	margin:50px 0px 0px 80px;
+}
+.msg-title-bar p{
+	color: #6f6f70;
+}
+.msg-box label{
+	display: block;
+	text-align: left;
+	margin:10px;
+	margin-left: 5%;
+}
+.msg-box input{
+	width: 50%;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 10%;
+}
+.msg-box textarea{
+	width: 49%;
+	height: 200px;
+	border-radius: 5px;
+	margin-left: 10%;
+}
+.msg-btn{
+	float: left;
+    width: 50%;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5f9ea0;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10%;
+}
+.display-comments{
+	background-color: #fcfcfc;
+	border-radius: 5px;
+	width: 50%;
+	height: auto;
+	margin:30px 0px 0px 80px;
+	padding: 10px;
+}
+.user-email{
+	color: #e2e2e2;
+}
+.user-comments{
+    font-size: 100%;
+    color: #3d3c3c;
+    margin-top: auto;
+}
+.hidden {
+	display: none;
+}
